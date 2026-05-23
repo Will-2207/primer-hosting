@@ -1,11 +1,11 @@
 <?php
 // Configuración de conexión (William: no borres este bloque)
-$servername = "sql301.infinityfree.com";
-$username   = "if0_41748799"; 
-$password   = "EwRqODcbLg"; 
-$dbname     = "if0_41748799_donaciones";
+//$servername = "sql301.infinityfree.com";
+//$username   = "if0_41748799"; 
+//$password   = "EwRqODcbLg"; 
+//$dbname     = "if0_41748799_donaciones";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+//$conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     $error_db = "Error de conexión: " . $conn->connect_error;
 }
