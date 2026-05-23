@@ -11,5 +11,5 @@ RUN echo "Listen \${PORT}" > /etc/apache2/ports.conf
 
 # Railway requiere exponer el puerto 80 para respuesta
 EXPOSE 80
-
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 CMD ["apache2-foreground"]
